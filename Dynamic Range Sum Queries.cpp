@@ -1,3 +1,5 @@
+///Dynamic Range Sum Queries
+///https://cses.fi/problemset/task/1648
 #include<bits/stdc++.h>
 #define endl '\n'
 #define print(x) cout << (#x) << " is " << x << endl;
