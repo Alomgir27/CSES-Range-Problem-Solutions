@@ -1,3 +1,5 @@
+///Static Range Minimum Queries
+///https://cses.fi/problemset/result/1885800/
 #include<bits/stdc++.h>
 #define endl '\n'
 #define print(x) cout << (#x) << " is " << x << endl;
