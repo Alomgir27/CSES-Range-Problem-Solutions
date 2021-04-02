@@ -24,7 +24,7 @@ Int query(int L, int R)
     Int mn = (1ll << 60);
     while(L <= R){
         if(L & 1)mn = min(mn, a[L++]); ///L is Left child
-        if(!(L & 1))mn = min(mn, a[R--]);/// R is Right child
+        if(!(R & 1))mn = min(mn, a[R--]);/// R is Right child
         L >>= 1, R >>= 1;
     }
     return mn;
